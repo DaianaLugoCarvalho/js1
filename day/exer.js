@@ -305,9 +305,58 @@ for ( let calc = 10; calc >=1; calc--) {
                 // mostre o numero de vezes caras e o numero
                 // de coroas no console.
 
+function caraOuCoroa(){
+let cara=0
+let coroa =0
+
+for (let )
 
 
 
+// Crie um algoritimo contador de passos que acumule os valores de passos 
+//informados pelo usuario ate que a meta seja atingida (a meta é 
+// 1000passos) 
+//  while ( condição) {
+//   rotina
+//     }
+
+
+
+let meta = 0 
+
+while(meta <=1000){
+    let passos = parseInt( prompt('seus passos'))
+    meta = meta + passos
+    console.log('passos ate agora', meta , 'passos')  
+    
+    meta >=1000? console.log('uhuhuh'):console.log('vai nadando')
+}
+// console.log ( 'seus passos agora', meta, 'meta ok')
+
+
+      //arrays
+
+ let cardapio = [
+     ['refri',2]
+     ['coxinha',4]
+     ['breja',6]
+ ]
+ 
+
+
+            //Dada a lista de convidados abaixo escreva um
+            //loop que percorra a lista e mostre se o nome da
+            //pessoa convidada foi encontrado. Caso tenha sido encontrado,
+            // mostre a mensagem 'Seja bemvindo, <convidado>!'
+            //listaConvidados = ['Alice','João','Maria Rita', 'Sueli','Carlos']  
+
+
+    //** exemplo **//        
+let listaDeNumeros= [1,2,3,4,5]
+
+for ( let i=0; i< listaDeNumeros.length; i++)
+console.log('indice', i , 'valor', listaDeNumeros[i])
+listaDeNumeros[i]==3?'uhuhuh':'ruim ruim'
 
 
 
